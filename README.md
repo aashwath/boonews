@@ -1,4 +1,5 @@
 # Boonews
+A simple news app that summarises the latest headlines from categories like India, Global, Entertainment and Business. Made for a friend who doesn't read the news much...
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.2.
 
