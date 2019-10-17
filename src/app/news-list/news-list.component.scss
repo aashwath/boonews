@@ -1,0 +1,93 @@
+.article-img img{
+ height: 100px;
+ width: 100px;
+ object-fit: cover;
+ border-radius: 8px;
+}
+
+.article-info{
+  font-weight: 500;
+  font-size: 12px;
+}
+
+h3.mat-subheading-2{
+  font-weight: 500;
+  font-size: 14px;
+}
+
+a#to-article > .article-container > .article-data > h3.mat-subheading-2, a#to-article > .article-container > .article-data >h4.mat-subheading-1, a#to-article > .article-container > .article-data > .article-info span{
+  color: #000000;
+}
+
+.article-container{
+  border-radius: 8px;
+  transition: box-shadow 200ms ease-in-out 0.1s;
+  cursor: pointer;
+}
+
+a#to-article:hover{
+  text-decoration: none;
+}
+
+.article-container:hover{
+  box-shadow: none;
+}
+
+.article-author, .article-source{
+  color: #3f51b5 !important;
+}
+
+.article-container:hover h3.mat-subheading-2{
+  color: #3f51b5 !important;
+}
+
+.list-group{
+  max-height: 87vh;
+  overflow-y: auto;
+  scrollbar-color: dark;
+  scrollbar-width: thin;
+}
+
+.list-group-item:last-child hr{
+  display: none;
+}
+
+::-webkit-scrollbar{
+  width: 5px
+}
+
+::-webkit-scrollbar-thumb{
+  width: 5px;
+  background-color: #aaaaaa;
+  border-radius: 10px
+}
+
+::-webkit-scrollbar-track {
+  width: 5px;
+  background-color: #e0e0e0;
+  border-radius: 10px
+}
+
+/* media queries for desktop */
+
+@media (min-width: 992px){  
+  .article-data{
+    height: 100px;
+    position: relative;
+    
+  }
+
+  .article-info{
+    position: absolute;
+    bottom: 2px;
+  }
+
+  h3.mat-subheading-2{
+    font-size: 16px;
+    transition: color 200ms 0.1s;
+  }
+
+  .article-container:hover{
+    box-shadow: 0 0 1rem .5rem rgba(0,0,0,.1);
+  }
+}

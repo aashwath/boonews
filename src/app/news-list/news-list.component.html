@@ -1,0 +1,20 @@
+<div class="list-group mt-3" role="list">
+	<div class="list-group-item border-0 m-0" *ngFor="let article of newsList; index as a" [@simpleFadeAnimation]="'in'">
+		<a id="to-article" href={{article.url}} target="_blank">
+			<div class="d-flex article-container p-0 p-md-2">
+				<div class="article-img mr-3">
+					<img [src]="article.urlToImage ? article.urlToImage : 'https://www.axiapayments.com/wp-content/uploads/2014/09/placeholder-square.jpg'" alt="Article Image">
+			  </div>
+					<div class="article-data">
+						<h3 class="mat-subheading-2 mb-0">{{article.title | shorten: 120}}</h3>
+						<h4 class="mat-subheading-1 d-none d-md-block mb-0">{{article.description | shorten}}</h4>
+						<div class="article-info mt-1">
+							<span class="article-source">{{article.publishedAt | date: 'shortTime'}}</span>
+							<span class="article-author d-none d-md-inline ml-2" *ngIf="article.author">{{article.author}}</span>
+						</div>
+					</div>
+				</div>
+		</a>
+		<hr class="d-md-none mb-0">
+	</div>
+</div>

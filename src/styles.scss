@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+/* Add application styles & imports to this file! */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import '~bootstrap/scss/bootstrap.scss';
+
+body{
+  max-width: 100%;
+  overflow-x: hidden;
+}

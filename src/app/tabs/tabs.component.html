@@ -1,0 +1,13 @@
+<nav class="d-none d-lg-block" mat-tab-nav-bar mat-stretch-tabs>
+	<a mat-tab-link *ngFor="let link of tabLinks" [routerLink]="['/headlines', link]" routerLinkActive
+		#rla="routerLinkActive" [active]="rla.isActive">
+		{{link | titlecase }}
+	</a>
+</nav>
+<router-outlet></router-outlet>
+<nav class="d-lg-none border-top mt-3" mat-tab-nav-bar mat-stretch-tabs headerPosition="below">
+	<a mat-tab-link *ngFor="let link of tabLinks" [routerLink]="['/headlines', link]" routerLinkActive
+		#rla="routerLinkActive" [active]="rla.isActive">
+		{{link | titlecase }}
+	</a>
+</nav>
