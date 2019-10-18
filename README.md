@@ -1,4 +1,7 @@
 # Boonews
+
+![Boonews Screenshot](https://github.com/aashwath/boonews/blob/master/boonews_snip_1280x640.png)
+
 A simple news app that summarises the latest headlines from categories like India, Global, Entertainment and Business. Made for a friend who doesn't read the news much...
 
 Click [here](https://boonews.web.app) to get the latest headlines.
