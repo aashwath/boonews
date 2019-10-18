@@ -42,7 +42,7 @@ a#to-article:hover{
 }
 
 .list-group{
-  max-height: 87vh;
+  max-height: 92vh;
   overflow-y: auto;
   scrollbar-color: dark;
   scrollbar-width: thin;
@@ -75,7 +75,11 @@ a#to-article:hover{
     height: 100px;
     position: relative;
     
-  }
+	}
+	
+	.list-group{
+		max-height: 89vh;
+	}
 
   .article-info{
     position: absolute;
