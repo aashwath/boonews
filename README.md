@@ -10,7 +10,7 @@ Features:
 * View the latest headlines from categoreis like India, GLobal, Entertainment and Business.
 * Responsive and scalable.
 
-Made with [Angular](https://github.com/angular) and [Angular CLI](https://github.com/angular/angular-cli) version 8.0.2. and [Bootstrap](https://github.com/twbs/bootstrap) version 4.3.1
+Made with [Angular](https://github.com/angular) and [Angular CLI](https://github.com/angular/angular-cli) version 8.0.2, [Angular Material](https://github.com/angular/components) and [Bootstrap](https://github.com/twbs/bootstrap) version 4.3.1
 
 Powered by [NewsAPI](https://newsapi.org)
 
