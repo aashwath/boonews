@@ -3,6 +3,10 @@ a:hover{
   color: #3f51b5;
 }
 
-.boo-tab-bottom{
+.boo-tabs{
+	background-color: #ffffff;
+}
+
+.boo-tabs.fixed-bottom{
 	position: fixed !important;
 }
