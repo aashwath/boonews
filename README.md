@@ -14,17 +14,9 @@ Made with [Angular](https://github.com/angular) and [Angular CLI](https://github
 
 Powered by [NewsAPI](https://newsapi.org)
 
-## Development server
+## After cloning the repo...
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Open the command line in that directory and run `npm install`. Once done, run `ng s --o` for initiating a dev server and initializing the app on the browser at `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Further help
 
